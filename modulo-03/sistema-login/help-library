@@ -1,0 +1,5 @@
+_help() {
+	printf '%s' 'Available options: '
+	printf '%s' '-l | --login	Acess the program'
+	printf '%s' '-h | --help	Show this options'
+}

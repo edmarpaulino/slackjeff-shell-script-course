@@ -1,0 +1,1 @@
+These codes were made during the Slack Jeff Shell Script Course

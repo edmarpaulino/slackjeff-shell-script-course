@@ -1,0 +1,5 @@
+GLOB/CURINGAS
+
+* -> Qualquer coisa
+? -> Um caractere qualquer. arquivo-?.t?z
+[^] -> Qualquer caractere menos os que estão dentro [^A-Z] [^1,2,3]

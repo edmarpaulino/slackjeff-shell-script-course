@@ -1,0 +1,10 @@
+# EXPANSÃO DE STRINGS
+
+${#variavel} -> Retorna o TAMANHO da string, ou o número de caracters
+				presentes dentro da variável.
+
+${variavel/portugues/ingles} -> 	Substitui a primeira ocorrência da
+									palavra portugues pela palavra ingles.
+
+${variavel//portugues/ingles} -> 	Substitui todas as ocorrências da
+									palavra portugues pela palavra ingles.

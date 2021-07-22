@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+
+echo 'Qual é o seu nome?'
+read nome
+
+read -p 'Qual é a sua altura? ' altura
+
+echo 'Qual é a sua escolaridade?'
+read escolaridade
+
+echo -e "O seu nome é $nome\n"
+echo -e "A sua altura é $altura\n"
+echo -e "A sua escolaridade é $escolaridade\n"

@@ -1,0 +1,94 @@
+May 16 10:17:37 tatakae /usr/libexec/gdm-wayland-session[700]: dbus-daemon[700]: [session uid=117 pid=700] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+May 16 10:17:39 tatakae /usr/libexec/gdm-wayland-session[700]: dbus-daemon[700]: [session uid=117 pid=700] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+May 16 10:17:52 tatakae systemd[1837]: Dependency failed for GNOME XSettings service.
+May 16 10:17:52 tatakae systemd[1837]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+May 16 10:17:52 tatakae systemd[1837]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+May 16 10:17:52 tatakae gnome-shell[750]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+May 16 10:17:52 tatakae gnome-shell[750]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+May 16 10:17:53 tatakae gsd-color[2126]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_LG_Electronics_23MP55_16843009_Debian_gdm_117
+May 16 10:18:18 tatakae pulseaudio[1858]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 17 07:09:29 tatakae kernel: [    0.221951] acpi PNP0A08:00: _OSC failed (AE_ERROR); disabling ASPM
+May 17 07:09:29 tatakae gnome-session[710]: gnome-session-binary[710]: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+May 17 07:09:29 tatakae gnome-session-binary[710]: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+May 17 07:09:32 tatakae /usr/libexec/gdm-wayland-session[708]: dbus-daemon[708]: [session uid=117 pid=708] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+May 17 07:09:55 tatakae pulseaudio[692]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 17 07:29:52 tatakae kernel: [ 1227.858662] Freezing of tasks failed after 20.006 seconds (1 tasks refusing to freeze, wq_busy=0):
+May 17 07:45:17 tatakae /usr/libexec/gdm-wayland-session[708]: dbus-daemon[708]: [session uid=117 pid=708] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+May 17 07:45:19 tatakae /usr/libexec/gdm-wayland-session[708]: dbus-daemon[708]: [session uid=117 pid=708] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+May 17 07:45:28 tatakae systemd[1764]: Dependency failed for GNOME XSettings service.
+May 17 07:45:28 tatakae systemd[1764]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+May 17 07:45:28 tatakae systemd[1764]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+May 17 07:45:28 tatakae gnome-shell[752]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+May 17 07:45:29 tatakae gnome-shell[752]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+May 17 07:45:29 tatakae gsd-color[2048]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_LG_Electronics_23MP55_16843009_Debian_gdm_117
+May 17 07:45:54 tatakae pulseaudio[1785]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 17 10:06:59 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 10:06:59 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 11:14:46 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 11:14:46 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 15:03:54 tatakae gnome-shell[1934]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 17 17:02:14 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #10] WARNING: Decoder=7f46716b5c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:04:45 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #10] WARNING: Decoder=7f46716aa400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:05:38 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #10] WARNING: Decoder=7f4670dafc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:08:46 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4675cdd800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:09:29 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4675cd3400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:09:53 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4676887000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:11:29 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467c2c9000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:11:44 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467ca76c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:11:48 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467c2d2000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:11:53 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467ca7bc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:11:58 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467d5b9800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:00 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467d5b2800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:03 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467dd12c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:14 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467dd14800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:18 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467dd18000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:30 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467dd23000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:40 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467dd2a800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:12:53 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467e0e4c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:13:02 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f467e0de800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:14:26 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4680561c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:14:35 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f468055f800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:14:44 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4687dcf400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:15:04 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4687dd8c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:15:31 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f4689ec6c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:16:10 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #11] WARNING: Decoder=7f468f1e0c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:24:49 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f466e44d000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:24:57 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f466e44bc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:25:18 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f4671dec000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:27:13 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f46753eec00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:27:22 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f4675853000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:27:36 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f467584c800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:28:58 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:28:58 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:01 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f467c2c1000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:29:06 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:07 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:10 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f467d64e400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:29:15 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:15 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:19 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f467dd12400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 17:29:27 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:27 tatakae firefox-esr[3396]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 17 17:29:30 tatakae firefox-esr.desktop[4120]: [Child 4120, MediaDecoderStateMachine #12] WARNING: Decoder=7f4673be6800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file ./dom/media/MediaDecoderStateMachine.cpp, line 376
+May 17 18:30:15 tatakae gnome-shell[1934]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 17 18:30:41 tatakae gnome-shell[1934]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 17 18:34:34 tatakae gnome-shell[1934]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 18 07:21:31 tatakae kernel: [    0.221346] acpi PNP0A08:00: _OSC failed (AE_ERROR); disabling ASPM
+May 18 07:21:31 tatakae cups-browsed[620]: g_main_loop_quit: assertion 'loop != NULL' failed
+May 18 07:21:32 tatakae gnome-session[702]: gnome-session-binary[702]: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+May 18 07:21:32 tatakae gnome-session-binary[702]: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+May 18 07:21:34 tatakae /usr/libexec/gdm-wayland-session[700]: dbus-daemon[700]: [session uid=117 pid=700] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+May 18 07:21:57 tatakae pulseaudio[684]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 18 07:29:21 tatakae systemd[1674]: Dependency failed for GNOME XSettings service.
+May 18 07:29:21 tatakae systemd[1674]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+May 18 07:29:21 tatakae systemd[1674]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+May 18 07:29:21 tatakae gnome-shell[748]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+May 18 07:29:21 tatakae gnome-shell[748]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+May 18 07:29:22 tatakae gsd-color[1964]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_LG_Electronics_23MP55_16843009_Debian_gdm_117
+May 18 07:29:46 tatakae pulseaudio[1696]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 18 08:39:57 tatakae firefox-esr[2339]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 18 08:39:57 tatakae firefox-esr[2339]: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+May 18 09:01:06 tatakae gnome-shell[1852]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 18 09:05:34 tatakae totem[6684]: grl_log_valist: assertion 'domain' failed
+May 18 09:05:41 tatakae gnome-shell[1852]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 18 09:10:37 tatakae totem[6893]: grl_log_valist: assertion 'domain' failed

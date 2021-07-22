@@ -1,0 +1,10 @@
+# EXPANSÃO DE VARIÁVEIS!
+
+Expansão Condicional
+${VARIAVEL:-TEXTO} -> Se a variável NÃO está definida(está NULA), retorna TEXTO.
+
+${VARIAVEL:=TEXTO} -> Se a variável NÃO está definida(está NULA), DEFINA/ARMAZENE o TEXTO.
+
+${VARIAVEL:?ERRO} -> Se a variável NÃO está definida(está NULA), RETORNE O ERRO!
+
+${VARIAVEL:+TEXTO} -> Se a variável ESTIVER definida, retorne o TEXTO.

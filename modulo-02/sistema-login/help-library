@@ -1,0 +1,5 @@
+_help() {
+	echo 'Available options: '
+	echo '-l | --login	Acess the program'
+	echo '-h | --help	Show this options'
+}
